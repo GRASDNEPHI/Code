@@ -1,0 +1,11 @@
+python -m openne --method sdne --input data/new/DNARBPHOSTALL.txt --graph-format edgelist --output data/new/phage_host_sdne.txt --representation-size 32
+
+python -m openne --method deepWalk --input data/new/DNARBPHOSTALL.txt --graph-format edgelist --output ALL_phi_deepwalk_Behavior64.txt --representation-size 64
+
+python -m openne --method hope --input data/new/DNARBPHOSTALL.txt --graph-format edgelist --output ALL_phi_hope_Behavior64.txt --representation-size 64
+
+
+python -m openne --method lap --input data/new/DNARBPHOSTALL.txt --graph-format edgelist --output ALL_phi_lap_Behavior64.txt --representation-size 64
+
+
+python -m openne --method line --input data/new/DNARBPHOSTALL.txt --graph-format edgelist --output ALL_phi_line_Behavior64.txt --representation-size 64
