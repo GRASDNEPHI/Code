@@ -1,41 +1,21 @@
 # Title
 GRASDNEPHI: a novel deep learning model for predicting phage-host interactions via multiple biological information
 
-Developers
-Menglu Li (mengluli@foxmail.com), Yannan Bin and Junfeng Xia (jfxia@ahu.edu.cn) from School of Computer Science and Technology, Institutes of Physical Science and Information Technology, Anhui University.
+# Developers
 
-Yanan Wang and Fuyi Li from Biomedicine Discovery Institute and Department of Biochemistry & Molecular Biology, Monash Centre for Data Science, Monash University.
+Jie Pan is a Phd student of School of College of life Sciences, Northwest University. His research interests include bioinformatics, microbiology, and network analysis.
+Wencai You is a master student of School of College of life Sciences, Northwest University. Her research interests include Microbial genetics and whole-genome transcriptional analyses.
 
-Yun Zhao and Jian Li from Biomedicine Discovery Institute and Department of Biochemistry & Molecular Biology, Monash University.
+Xiaoliang Lu is a master student of School of College of life Sciences, Northwest University. Her research interests include phage and bacterial whole-genome data analysis, transcriptome and macro transcriptome data analysis.
 
-Mengya Liu and Sijia Zhang from Institutes of Physical Science and Information Technology, Anhui University.
+Rui Wang is a professor of the First Affiliated Hospital of Northwest University. His researches interests include Host-microbiome interactions and Microbial therapies. 
 
-Geoffrey I. Webb from Monash Centre for Data Science, Monash University.
+Shumin Wang is a professor at the Affiliated Hospital of Inner Mongolia Medical University. His researches interests include machine learning and omics data analysis.
 
-Jiangning Song ( Jiangning.Song@monash.edu) from Biomedicine Discovery Institute and Department of Biochemistry & Molecular Biology, Monash Centre for Data Science, ARC Centre of Excellence in Advanced Molecular Imaging, Monash University.
+Shiwei Wang is a Professor of Northwest University. His research interests include physiological studies on Pseudomonas aeruginosa and molecular biology of phages and their applications.
 
-Related Files
-data
-FILE NAME	DESCRIPTION
-training_set.csv	the data used to train model (include phage name, host name, and class)
-training_kmeans.csv	the data used to train model (use K-Means clustering method to select negative samples, construct balanced training set)
-test_set.csv	the data used to test model (include phage name, host name, and class)
-test_kmeans.csv	the data used to test model (use K-Means clustering method to select negative samples, construct balanced test set)
-test-random.csv	the data used to test model (randomly select negative samples to balance test set)
-min_num.csv	minimum feature file (for normalizing new feature)
-max_num.csv	maximum feature file (for normalizing new feature)
-mediumdata	save medium files when run codes
-trainingfeatures	save training features (file name is phage and host name)
-testfeatures	save test features (file name is phage and host name)
-test-test.csv	the data used to test 1-obtainfeatures.py code (include phage name, host name, and class)
-test-test-seq.fasta	the protein sequence encoded by phage and host in test-test.csv
-code
-FILE NAME	DESCRIPTION
-1-obtainfeatures.py	obtain phage and host features (the result save in trainingfeatures and testfeatures)
-2-training-model.py	train model
-3-test-result.py	test model result
-result
-FILE NAME	DESCRIPTION
-model.h5	the trained model can be directly used to predict
-Contact
-Please feel free to contact us if you need any help.
+Zhuhong You is a Professor of Northwestern Polytechnical University. His research areas include neural networks, intelligent information processing, sparse representation, and their applications in bioinformatics.
+
+Yanmei Sun is a Professor of Northwest University. Her research interests include Host-microbiome interactions and microbial communities.
+
+
