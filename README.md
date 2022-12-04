@@ -3,6 +3,7 @@ GRASDNEPHI: a novel deep learning model for predicting phage-host interactions v
 
 ## Developers
 Jie Pan is a Phd student of School of College of life Sciences, Northwest University. His research interests include bioinformatics, microbiology, and network analysis.
+
 Wencai You is a master student of School of College of life Sciences, Northwest University. Her research interests include Microbial genetics and whole-genome transcriptional analyses.
 
 Xiaoliang Lu is a master student of School of College of life Sciences, Northwest University. Her research interests include phage and bacterial whole-genome data analysis, transcriptome and macro transcriptome data analysis.
