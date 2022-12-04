@@ -24,3 +24,6 @@ scipy==0.19.1
 tensorflow==1.10.0
 gensim==3.0.1
 scikit-learn==0.19.0
+
+## Contact
+Please feel free to contact us if you need any help.
